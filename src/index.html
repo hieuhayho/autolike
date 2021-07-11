@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden">
+
+<head>
+    <base href="/">
+    <!--<script>document.write('<base href="' + document.location + '" />');</script>-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--crm css import-->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        window.jQuery = window.$ = require('jquery');
+        require('moment');
+        require('bootstrap3');
+        require('tooltipster');
+        var emoticons = require('emoticons');
+        require('perfect-scrollbar');
+        var toastr = require('toastr');
+        require('daterangepicker');
+        require('bootstrap-datepicker');
+        var SimplePicker = require('simplepicker');
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <!-- start linking  -->
+    <title id="titleWindowsApp">Example Project</title>
+</head>
+
+<body style="overflow: hidden;">
+<app-root></app-root>
+</body>
+<link rel="stylesheet" href="assets/lib/css/mini-event-calendar.min.css">
+<script src="assets/lib/js/mini-event-calendar.js"></script>
+<script src="assets/lib/js/acolorpicker.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/lib/css/acolorpicker.css"/>
+
+
+<script>
+    var simplepicker = new SimplePicker({
+        zIndex: 999999
+    });
+</script>
+</html>

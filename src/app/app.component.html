@@ -1,0 +1,18 @@
+<div class="container" style="padding: 0;width: 100%; height: 100vh; background-color: #EFEFEF !important;">
+    <div *ngIf="!user.userId" style="text-align: center;" class="login">
+        <label>Sử dụng cookie để đăng nhập</label><br>
+        <textarea [(ngModel)]="fullCookie" class="textAreaLogin"></textarea><br>
+        <button class="btnLogin" (click)="login()">Đăng nhập</button>
+    </div>
+    <div *ngIf="user.userId" style="text-align: center;">
+        <p>Xin chào {{user.userId}} nhé.</p>
+        <br>
+        <textarea placeholder="Nhập danh sách id để chạy" [(ngModel)]="listUIDString" class="textAreaLogin"></textarea><br>
+        <button class="btnLogin" id="btnRunTask" (click)="runTask()">Chạy ngay đi</button>
+        <br>
+        <p>Lịch sử tiến trình.</p>
+        <textarea class="textAreaLogin" id="history"></textarea>
+    </div>
+</div>
+
+

@@ -1,0 +1,130 @@
+.tablinks {
+  line-height: inherit;
+  background-color: lavenderblush;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+}
+
+.tablinks:hover{
+  background-color: white;
+}
+
+.tablinks.active{
+  background-color: white;
+}
+
+.tabView {
+  background-color: lavenderblush;
+}
+
+.active {
+  background: black;
+}
+
+.icon-menu {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-item:hover {
+background-color: black;
+}
+
+
+
+.formRightFeedback {
+  width: 496px;
+  height: 436px;
+  float: left;
+}
+
+.textAreaLogin {
+  width: 50%;
+  border-radius: 1.25rem;
+  border: solid 1px gainsboro;
+  height: 100px;
+}
+
+.btnLogin {
+  border: none;
+  background: darkblue;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  border-radius: 1.25rem;
+}
+
+.aUp {
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 15px;
+  color: black;
+  margin-right: 7px;
+  float: left;
+}
+
+.formLeftFeedback {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 518px;
+  width: 241px;
+  float: left;
+  background-color: #0c6fff;
+}
+
+.inputFeedback {
+  margin-left: 15px;
+  width: 89%;
+  height: 84px;
+  margin-bottom: 5px;
+}
+
+.rating-list li {
+  float: right;
+  color: #ddd;
+  padding: 10px 5px;
+
+}
+
+.rating-list li:hover,
+.rating-list li:hover ~ li, .rating-list li.selected {
+  color: #ffd700;
+}
+
+.rating-list {
+  display: inline-block;
+  list-style: none;
+}
+
+.fa-star {
+  font-size: 22px;
+}
+
+.aVote {
+  float: left;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.buttonShowPopupFeedback {
+  position: fixed;
+  right: 0;
+  top: 57%;
+  z-index: 999;
+  cursor: pointer;
+}
+
+#mutilImgFeedback {
+  height: 112px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-left: 15px;
+  margin-right: 37px;
+  border: solid 1px darkgrey;
+  margin-top: 10px;
+}
